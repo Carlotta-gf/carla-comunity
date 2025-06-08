@@ -23,12 +23,23 @@
       min-height: 100vh;
     }
     
-    .gradient-text {
-      background: linear-gradient(90deg, rgb(67, 97, 238), rgb(72, 149, 239)); /* Menggunakan warna RGB */
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
+
+  /* Tambahkan di dalam <style> */
+  @keyframes rainbow-text {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .gradient-text {
+    background: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #2b65ff, #8000ff, #ff0080, #ff0000);
+    background-size: 1800% 1800%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-text 8s ease infinite;
+  }
+
     
     .card-hover {
       transition: all 0.3s ease;
