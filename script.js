@@ -13,7 +13,7 @@ const groups = [
     url: "https://wa.me/6283130303343   ",
     icon: "fab fa-whatsapp",
     color: "bg-pink-500",
-    buttonText: "Chat With Bot",
+    buttonText: "Chat Dinata! ",
     buttonIcon: "fa-comment-dots"
   }
 ];
