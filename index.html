@@ -23,17 +23,25 @@
       min-height: 100vh;
     }
     
-
- 
-  .gradient-text {
-    background: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #2b65ff, #8000ff, #ff0080, #ff0000);
-    background-size: 1800% 1800%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow-text 8s ease infinite;
-  }
-
+    .animated-rainbow-text {
+  background: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #2b65ff, #8000ff, #ff0080, #ff0000);
+  background-size: 1800% 1800%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow-text 8s ease infinite;
+}
+@keyframes rainbow-text {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+    .gradient-text {
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
     
     .card-hover {
       transition: all 0.3s ease;
@@ -153,9 +161,9 @@
                class="relative z-10 w-32 h-32 rounded-full object-cover border-4 border-white shadow-xl animate-float">
         </div>
         
-        <h1 class="text-4xl font-bold text-gray-800 mb-2">
-          <span class="gradient-text">Archive Community</span>
-        </h1>
+<h1 class="text-4xl font-bold text-gray-800 mb-2">
+  <span class="animated-rainbow-text">Archive Community</span>
+</h1>
         <p class="text-gray-600 max-w-2xl">
           Welcome to our creative hub for coders, dreamers, and innovators. 
           Join our vibrant communities to share ideas, sharpen your skills, 
