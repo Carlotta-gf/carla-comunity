@@ -396,16 +396,5 @@ helloWorld();
   </div>
 
   <script src="script.js"></script>
-  <script>
-    document.getElementById('copyButton').addEventListener('click', function() {
-      const code = document.querySelector('code').innerText;
-      navigator.clipboard.writeText(code).then(() => {
-        alert('Code copied to clipboard!');
-      }).catch(err => {
-        console.error('Failed to copy: ', err);
-      });
-    });
-  </script>
-  
 </body>
 </html>
