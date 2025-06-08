@@ -9,8 +9,8 @@ const groups = [
     header: "Owner Carlotta!",
     description:
       "Behind every smart bot is a smarter creator. Say hello to Dinata.",
-    image: "https://files.catbox.moe/7sgzsu.jpg   ",
-    url: "https://wa.me/6282133532380   ",
+    image: "https://files.catbox.moe/rf7ged.png   ",
+    url: "https://wa.me/6283130303343   ",
     icon: "fab fa-whatsapp",
     color: "bg-pink-500",
     buttonText: "Chat With Bot",
