@@ -123,6 +123,35 @@
         transform: translateX(-200px);
       }
     }
+    .glow-box {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.glow-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 255, 0, 0.2),
+    transparent,
+    rgba(255, 255, 0, 0.5)
+  );
+  animation: rotate-glow 4s linear infinite;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+@keyframes rotate-glow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
   </style>
 </head>
 
@@ -174,9 +203,9 @@
           <div class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">
             <i class="fas fa-users mr-1"></i> 500+ Members
           </div>
-          <div class="px-4 py-2 bg-purple-50 text-purple-600 rounded-full text-sm font-medium">
-            <i class="fas fa-bolt mr-1"></i> Active Daily
-          </div>
+          <div class="glow-box px-4 py-2 bg-purple-50 text-purple-600 rounded-full text-sm font-medium">
+  <i class="fas fa-bolt mr-1"></i> Active Daily
+</div>
         </div>
       </div>
     </div>
