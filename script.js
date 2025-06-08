@@ -5,54 +5,31 @@
 // Daftar grup WhatsApp yang akan ditampilkan di UI
 const groups = [
   {
-    title: "Calestia’s Number 💖",
-    header: "Reach Your Favorite Bot",
-    description:
-      "The easiest way to reach your favorite bot! Start chatting and let the magic begin.",
-    image: "https://files.catbox.moe/7sgzsu.jpg   ",
-    url: "https://wa.me/6282133532380   ",
-    icon: "fa-phone",
-    color: "bg-pink-500",
-    buttonText: "Chat With Bot",
-    buttonIcon: "fa-comment-dots"
+    title: 'Royal Roundtable',
+    description: 'A vibrant community discussing website creation, WhatsApp bots, AI projects and the latest in technology. We maintain a positive environment for meaningful tech discussions.',
+    image: 'https://files.catbox.moe/7ki9wu.jpg',
+    url: 'https://chat.whatsapp.com/DrqZxEeI8v9H83ynYvkVOP',
+    icon: 'fa-crown',
+    color: 'bg-purple-500'
   },
   {
-  title: "Telegram Bot (FREE) ✨",
-  header: "Calestia Now on Telegram",
-  description:
-    "Explore a new side of Calestia! This is the official Telegram version of your favorite WhatsApp bot—same love, new platform and its features are free.",
-  image: "https://files.catbox.moe/22zz0w.jpg",
-  url: "https://t.me/ClstiaBot",
-  icon: "fa-paper-plane",
-  color: "bg-cyan-500",
-  buttonText: "Talk on Telegram",
-  buttonIcon: "fa-robot"
+    title: 'Shizuku Murasaki',
+    description: 'Exclusive group to explore Shizuku AI features including Downloader, Search, NSFW, and useful tools. Perfect for AI enthusiasts and developers.',
+    image: 'https://files.catbox.moe/762bte.jpg',
+    url: 'https://chat.whatsapp.com/EUH2RUBs9gvISoIMeFD4N9',
+    icon: 'fa-robot',
+    color: 'bg-blue-500'
   },
   {
-    title: "Official Group 🌟",
-    header: "Join Our Official Community",
-    description:
-      "Join the official group where all Calestars unite. Stay connected and be part of something amazing!",
-    image: "https://files.catbox.moe/wwfco3.png   ",
-    url: "https://chat.whatsapp.com/HDockZJ48S82HUhsxu85kH   ",
-    icon: "fa-users",
-    color: "bg-purple-500",
-    buttonText: "Join Community",
-    buttonIcon: "fa-user-friends"
-  },
-  {
-    title: "Official Channel 📢",
-    header: "Stay Updated with Us",
-    description:
-      "Stay updated with all the latest news and announcements in our official channel. No distractions, just the essentials!",
-    image: "https://files.catbox.moe/u4d541.jpg   ",
-    url: "https://whatsapp.com/channel/0029VapSsRCGJP8CHvDLT11f   ",
-    icon: "fa-bullhorn",
-    color: "bg-blue-500",
-    buttonText: "Follow to Channel",
-    buttonIcon: "fa-bullhorn"
+    title: 'Shooting Stars',
+    description: 'A friendly social group filled with interesting people. Perfect place to make new friends and enjoy casual conversations in a welcoming space.',
+    image: 'https://files.catbox.moe/fkwswl.jpg',
+    url: 'https://chat.whatsapp.com/KzG7ih7qSWlL4b7fzqZTvl',
+    icon: 'fa-star',
+    color: 'bg-yellow-500'
   }
 ];
+
 
 let activeIndex = null;
 
