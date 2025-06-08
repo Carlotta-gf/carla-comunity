@@ -11,7 +11,7 @@ const groups = [
       "The easiest way to reach your favorite bot! Start chatting and let the magic begin.",
     image: "https://files.catbox.moe/7sgzsu.jpg   ",
     url: "https://wa.me/6282133532380   ",
-    icon: "fa-whatsaapp",
+    icon: "fa-whatsapp",
     color: "bg-pink-500",
     buttonText: "Chat With Bot",
     buttonIcon: "fa-comment-dots"
