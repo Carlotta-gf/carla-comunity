@@ -5,52 +5,16 @@
 // Daftar grup WhatsApp yang akan ditampilkan di UI
 const groups = [
   {
-    title: "Calestia’s Number 💖",
+    title: "Dinata Number",
     header: "Reach Your Favorite Bot",
     description:
       "The easiest way to reach your favorite bot! Start chatting and let the magic begin.",
     image: "https://files.catbox.moe/7sgzsu.jpg   ",
     url: "https://wa.me/6282133532380   ",
-    icon: "fa-phone",
+    icon: "fa-whatsaapp",
     color: "bg-pink-500",
     buttonText: "Chat With Bot",
     buttonIcon: "fa-comment-dots"
-  },
-  {
-  title: "Telegram Bot (FREE) ✨",
-  header: "Calestia Now on Telegram",
-  description:
-    "Explore a new side of Calestia! This is the official Telegram version of your favorite WhatsApp bot—same love, new platform and its features are free.",
-  image: "https://files.catbox.moe/22zz0w.jpg",
-  url: "https://t.me/ClstiaBot",
-  icon: "fa-paper-plane",
-  color: "bg-cyan-500",
-  buttonText: "Talk on Telegram",
-  buttonIcon: "fa-robot"
-  },
-  {
-    title: "Official Group 🌟",
-    header: "Join Our Official Community",
-    description:
-      "Join the official group where all Calestars unite. Stay connected and be part of something amazing!",
-    image: "https://files.catbox.moe/wwfco3.png   ",
-    url: "https://chat.whatsapp.com/HDockZJ48S82HUhsxu85kH   ",
-    icon: "fa-users",
-    color: "bg-purple-500",
-    buttonText: "Join Community",
-    buttonIcon: "fa-user-friends"
-  },
-  {
-    title: "Official Channel 📢",
-    header: "Stay Updated with Us",
-    description:
-      "Stay updated with all the latest news and announcements in our official channel. No distractions, just the essentials!",
-    image: "https://files.catbox.moe/u4d541.jpg   ",
-    url: "https://whatsapp.com/channel/0029VapSsRCGJP8CHvDLT11f   ",
-    icon: "fa-bullhorn",
-    color: "bg-blue-500",
-    buttonText: "Follow to Channel",
-    buttonIcon: "fa-bullhorn"
   }
 ];
 
