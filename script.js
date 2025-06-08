@@ -16,6 +16,30 @@ const groups = [
     buttonText: "Chat Dinata! ",
     buttonIcon: "fa-comment-dots"
   }
+ {
+    title: "Official Group Carlotta",
+    header: "Join Our Official Community",
+    description:
+      "Join the official group where all Carlotta. Stay connected and be part of something amazing!",
+    image: "https://files.catbox.moe/nhy1ui.jpg   ",
+    url: "https://chat.whatsapp.com/KVzJqLUGhpu1M4KBzsB9sg   ",
+    icon: "fa-users",
+    color: "bg-purple-500",
+    buttonText: "Join Community",
+    buttonIcon: "fa-user-friends"
+  },
+  {
+    title: "Official Channel",
+    header: "Stay Updated with Us",
+    description:
+      "Stay updated with all the latest news and announcements in our official channel. No distractions, just the essentials!",
+    image: "https://files.catbox.moe/zroh53.jpg   ",
+    url: "https://whatsapp.com/channel/0029VbAkbI4ISTkBJiP0FR2i   ",
+    icon: "fa-bullhorn",
+    color: "bg-blue-500",
+    buttonText: "Follow to Channel",
+    buttonIcon: "fa-bullhorn"
+  }
 ];
 
 
