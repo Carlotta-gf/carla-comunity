@@ -465,3 +465,15 @@ function initPlans() {
 document.addEventListener("DOMContentLoaded", function () {
   initPlans();
 });
+
+ 
+    document.getElementById('copyButton').addEventListener('click', function() {
+      const code = document.querySelector('code').innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Code copied to clipboard!');
+      }).catch(err => {
+        console.error('Failed to copy: ', err);
+      });
+    });
+
+  
