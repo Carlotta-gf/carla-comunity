@@ -6,9 +6,9 @@
 const groups = [
   {
     title: "Dinata Number",
-    header: "Reach Your Favorite Bot",
+    header: "Owner Carlotta!",
     description:
-      "The easiest way to reach your favorite bot! Start chatting and let the magic begin.",
+      "Behind every smart bot is a smarter creator. Say hello to Dinata.",
     image: "https://files.catbox.moe/7sgzsu.jpg   ",
     url: "https://wa.me/6282133532380   ",
     icon: "fab fa-whatsapp",
