@@ -123,32 +123,32 @@
         transform: translateX(-200px);
       }
     }
-    .glow-box {
+    .glow-ring {
   position: relative;
-  z-index: 1;
-  overflow: hidden;
+  display: inline-block;
+  padding: 5px;
 }
 
-.glow-box::before {
+.glow-ring::before {
   content: '';
   position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 9999px;
   background: conic-gradient(
     from 0deg,
-    rgba(255, 255, 0, 0.5),
-    rgba(255, 255, 0, 0.2),
+    yellow,
     transparent,
-    rgba(255, 255, 0, 0.5)
+    yellow
   );
-  animation: rotate-glow 4s linear infinite;
-  z-index: -1;
-  filter: blur(20px);
+  animation: spin-ring 2s linear infinite;
+  z-index: 0;
+  mask-image: radial-gradient(closest-side, transparent 60%, black 61%);
+  -webkit-mask-image: radial-gradient(closest-side, transparent 60%, black 61%);
 }
-
-@keyframes rotate-glow {
+    @keyframes spin-ring {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
@@ -203,8 +203,10 @@
           <div class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">
             <i class="fas fa-users mr-1"></i> 500+ Members
           </div>
-          <div class="glow-box px-4 py-2 bg-purple-50 text-purple-600 rounded-full text-sm font-medium">
-  <i class="fas fa-bolt mr-1"></i> Active Daily
+          <div class="glow-ring">
+  <div class="px-4 py-2 bg-purple-50 text-purple-600 rounded-full text-sm font-medium relative z-10">
+    <i class="fas fa-bolt mr-1"></i> Active Daily
+  </div>
 </div>
         </div>
       </div>
